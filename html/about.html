@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>EDM PORTFOLIO</title>
+    <link rel="icon" type="image/png" href="../picture-vid/favicon.webp" />
+</head>
+<body>
+            <header>
+                <img src="../picture-vid/favicon.png" class="favicon" alt="logo"/>
+                <span class="additional"></span>
+                <input type="checkbox" id="menu-toggle" class="menu-checkbox"/>
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <label for="menu-toggle" class="menu-overlay"></label>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="../html/home.html">Home</a></li>
+                        <li><a href="../html/about.html">About</a></li>
+                        <li><a href="../html/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+    <main class="about-main">
+        <div class="about-intro">
+            <img src="../picture-vid/about.jpeg" class="about-p1"/>  
+            <div class="intro-text">
+                <span class="additional2"></span>
+                <p class="about-name"> Hi, My Name is Edmar <span class="surname">Delizon</span></p>
+                <p class="about-course">BSIT STUDENT</p>
+                <p class="about-introduction"> I am currently studying at Pamantasan ng lungsod ng Valenzuela. I am taking the course
+                    Bachelor in Science and Information Technology (BSIT). 
+                </p>
+                <span class="additional2"></span>
+            </div>       
+        </div>
+        <section class="about-details">
+            <div class="about-left">
+                <h2 class="about-me-title">About Me</h2>
+                <h3 class="about-me-name">Edmar Delizon</h3>
+                <p class="about-me-desc">
+                    I am a IT student with a strong interest right now in software development 
+                    and web technologies. I continuously learning new technologies to improve my skills and have
+                    more knowledge as possible.
+                </p>
+                <span class="about-separator"></span>
+                <div class="education-section">
+                    <h4 class="education-title">Educational Background</h4>
+                    <div class="education-holder">
+                        <div class="education-item">
+                            <span class="education-year">2024 - Present</span>
+                            <h5 class="education-school">Pamantasan ng Lungsod ng Valenzuela</h5>
+                            <p class="education-course">Bachelor of Science in Information Technology</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-right">
+                <div class="demo-reel-holder">
+                    <video class="demo-video" controls poster="../picture-vid/thumbnail.jpg">
+                        <source src="../picture-vid/demo-reel.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h4 class="demo-title">My Demo Reel</h4>
+                </div>
+                <div class="demo-extra-holder">
+                    <p class="demo-extra-text">
+                        This demo reel showcases my projects, skills, 
+                        and technical competencies I have developed throughout my studies.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="skill-section">
+            <h2 class="skill-header">Tech Skills</h2>
+
+            <input type="radio" name="tabs" id="tab1" class="skill-tab-input" checked>
+            <input type="radio" name="tabs" id="tab2" class="skill-tab-input">
+            <input type="radio" name="tabs" id="tab3" class="skill-tab-input">
+            <input type="radio" name="tabs" id="tab4" class="skill-tab-input">
+
+            <nav class="skill-nav">
+                <label for="tab1" class="skill-nav-link">Frontend</label>
+                <label for="tab2" class="skill-nav-link">Language</label>
+                <label for="tab3" class="skill-nav-link">Database</label>
+                <label for="tab4" class="skill-nav-link">Tools</label>
+            </nav>
+
+            <div class="skill-content">
+                <div id="content1" class="skill-category">
+                    <h3 class="category-title">FrontEnd</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-logo">
+                                <svg viewBox="0 0 128 128">
+                                    <path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"></path>
+                                    <path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"></path>
+                                    <path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"></path>
+                                    <path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"></path>
+                                </svg>
+                            </div>
+                            <span class="skill-name">HTML</span>
+                            <p class="skill-desc">Markup language for structuring web content and creating semantic page layouts.</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo">
+                                <svg viewBox="0 0 128 128">
+                                    <path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543z"></path>
+                                    <path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16z"></path>
+                                    <path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95z"></path>
+                                    <path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018z"></path>
+                                    <path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881z"></path>
+                                    <path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711zm-.047 27.994v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711z"></path>
+                                </svg>
+                            </div>
+                            <span class="skill-name">CSS</span>
+                            <p class="skill-desc">Stylesheet language for designing beautiful and responsive web page layouts.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content2" class="skill-category">
+                    <h3 class="category-title">Language</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-logo">
+                                <svg viewBox="0 0 128 128">
+                                    <path fill="#9B4F96" d="M115.4 30.7L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z"></path>
+                                    <path fill="#68217A" d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c0-.9-.1-1.9-.6-2.8l-106.6 62z"></path>
+                                    <path fill="#fff" d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6zM97 66.2l.9-4.3h-4.2v-4.7h5.1L100 51h4.9l-1.2 6.1h3.8l1.2-6.1h4.8l-1.2 6.1h2.4v4.7h-3.3l-.9 4.3h4.2v4.7h-5.1l-1.2 6.2h-4.9l1.2-6.2h-3.8l-1.2 6.2h-4.8l1.2-6.2h-2.4v-4.7h3.3zm4.8 0h3.8l.9-4.3h-3.8l-.9 4.3z"></path>
+                                </svg>
+                            </div>
+                            <span class="skill-name">C#</span>
+                            <p class="skill-desc">Object-oriented programming language for building Windows applications and games.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content3" class="skill-category">
+                    <h3 class="category-title">Database</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-logo">
+                                <svg viewBox="0 0 128 128">
+                                    <path fill="#00618A" d="M116.948 97.807c-6.863-.187-12.104.452-16.585 2.341-1.273.537-3.305.552-3.513 2.147.7.733.807 1.83 1.363 2.727 1.063 1.73 2.86 4.052 4.488 5.268 1.783 1.329 3.577 2.751 5.506 3.895 3.443 2.047 7.271 3.217 10.588 5.28 1.96 1.22 3.913 2.759 5.845 4.085.953.66 1.59 1.69 2.763 2.112v-.246c-.637-.81-1.006-1.91-1.783-2.58-1.108-1.076-2.313-2.033-3.516-3.003-3.317-2.69-7.049-5.055-11.026-6.993-3.179-1.553-10.218-3.626-11.511-7.206-.001-.003-.222-.215-.227-.227 2.217-.249 4.825-1.043 6.907-1.69 3.441-.912 6.511-.718 10.067-1.638 1.644-.424 3.295-.87 4.95-1.31v-.827c-1.852-1.912-3.166-4.453-5.183-6.176-5.322-4.542-11.148-9.048-17.237-12.693-3.197-1.913-7.19-3.158-10.595-4.763-.943-.442-3.319-.472-3.635-1.152-1.016-1.236-1.511-2.874-2.23-4.347-2.401-4.714-4.757-9.87-6.934-14.775-1.475-3.33-2.445-6.619-4.218-9.702-8.513-14.8-17.704-23.738-31.928-32.53-3.026-1.872-6.67-2.619-10.508-3.583-2.047-.066-4.104-.204-6.145-.274-1-.424-2.032-1.328-2.92-1.779-3.198-1.624-11.442-5.159-13.81-.478-1.502 2.959 2.239 5.852 3.541 7.358 1.02 1.131 2.335 2.387 3.071 3.682.466 1.184.555 2.368 1.002 3.589 1.103 3.015 2.031 6.334 3.458 9.131 1.224 2.396 2.5 4.837 4.03 6.998.953 1.345 2.59 1.935 2.695 4.092-.982 1.378-1.058 3.515-1.603 5.29-2.459 7.991-1.53 17.905 2.031 23.811 1.093 1.815 3.672 5.714 7.178 4.213 3.069-1.312 2.384-5.378 3.264-8.981.199-.818.076-1.421.482-1.978v.146l2.865 5.74c2.128 3.42 5.902 6.991 9.039 9.389 1.622 1.24 2.907 3.38 4.903 4.148v-.232h-.226c-.406-.633-1.042-1.122-1.578-1.692-.845-.853-1.791-1.897-2.484-2.838-2.773-3.797-5.218-7.954-7.449-12.151-.857-1.616-1.608-3.412-2.319-5.085-.278-.648-.278-1.633-.816-1.952-1.035 1.476-1.87 3.339-2.593 5.096-.933 2.224-1.015 4.966-1.603 7.793-.236.06-.131.015-.231.149-2.169-.523-2.932-2.735-3.743-4.622-2.061-4.778-2.444-12.476-.622-17.978.471-1.424 2.595-5.904 1.74-7.252-.408-1.323-1.752-2.091-2.483-3.148-.904-1.302-1.805-3.016-2.454-4.467-1.683-3.754-2.475-7.964-4.282-11.748-.862-1.803-2.326-3.634-3.519-5.29-.795-1.169-2.13-1.936-2.673-3.401-.797-2.232-.943-5.046-1.435-7.663.004-.177-.094-.294-.23-.378z"></path>
+                                    <path fill="#00618A" d="M67.821 89.138c-2.09-.056-3.572.166-5.186.576v.29h.145c1.008 2.066 2.773 3.396 3.97 5.279.934 1.89 1.839 3.794 2.763 5.684l.087-.087c1.712-1.213 2.498-3.155 2.467-6.037-.681-.716-.78-1.616-1.358-2.414-.749-1.042-2.329-1.637-2.888-3.291z"></path>
+                                </svg>
+                            </div>
+                            <span class="skill-name">MySQL</span>
+                            <p class="skill-desc">Open-source relational database for storing and managing structured data efficiently.</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" class="tech-icon">
+                                    <polygon fill="#CC2927" points="64,0 128,32 64,64 0,32"/>
+                                    <polygon fill="#A20025" points="64,64 128,96 64,128 0,96"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">MS SQL Server</span>
+                            <p class="skill-desc">Microsoft's enterprise database solution for robust data management and analytics.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="content4" class="skill-category">
+                    <h3 class="category-title">TOOLS I USE</h3>
+                    <div class="tools-list">
+                        <div class="tool-item">
+                            <div class="tool-logo">
+                                <svg viewBox="0 0 128 128">
+                                    <path fill="#0065A9" d="M95.674 0L78.153 8.481 24.149 57.965 3.877 42.992.044 48.179l18.25 16.022L.044 80.223l3.833 5.187 20.272-14.973 54.004 49.484L95.674 128V0zM78.153 97.472 36.21 64.201l41.943-33.271v66.542z"></path>
+                                </svg>
+                            </div>
+                            <span class="tool-name">VS Code</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-logo">
+                                <svg viewBox="0 0 128 128">
+                                    <path fill="#68217A" d="M95 2.3l30.5 12.3v98.7l-30.6 12.4-53-41.5-23.2 17.5-14.4-7V33.1l14.6-7L42 43.5 95 2.3zM14.3 45.6v36.8l13.2-18.4zm28.5 18.4L95 96V32l-52.2 32z"></path>
+                                </svg>
+                            </div>
+                            <span class="tool-name">Visual Studio</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-logo">
+                                <svg viewBox="0 0 128 128">
+                                    <path fill="#00618A" d="M116.948 97.807c-6.863-.187-12.104.452-16.585 2.341-1.273.537-3.305.552-3.513 2.147.7.733.807 1.83 1.363 2.727 1.063 1.73 2.86 4.052 4.488 5.268 1.783 1.329 3.577 2.751 5.506 3.895 3.443 2.047 7.271 3.217 10.588 5.28 1.96 1.22 3.913 2.759 5.845 4.085.953.66 1.59 1.69 2.763 2.112v-.246c-.637-.81-1.006-1.91-1.783-2.58-1.108-1.076-2.313-2.033-3.516-3.003-3.317-2.69-7.049-5.055-11.026-6.993-3.179-1.553-10.218-3.626-11.511-7.206-.001-.003-.222-.215-.227-.227 2.217-.249 4.825-1.043 6.907-1.69 3.441-.912 6.511-.718 10.067-1.638 1.644-.424 3.295-.87 4.95-1.31v-.827c-1.852-1.912-3.166-4.453-5.183-6.176-5.322-4.542-11.148-9.048-17.237-12.693-3.197-1.913-7.19-3.158-10.595-4.763-.943-.442-3.319-.472-3.635-1.152-1.016-1.236-1.511-2.874-2.23-4.347-2.401-4.714-4.757-9.87-6.934-14.775-1.475-3.33-2.445-6.619-4.218-9.702-8.513-14.8-17.704-23.738-31.928-32.53-3.026-1.872-6.67-2.619-10.508-3.583-2.047-.066-4.104-.204-6.145-.274-1-.424-2.032-1.328-2.92-1.779-3.198-1.624-11.442-5.159-13.81-.478-1.502 2.959 2.239 5.852 3.541 7.358 1.02 1.131 2.335 2.387 3.071 3.682.466 1.184.555 2.368 1.002 3.589 1.103 3.015 2.031 6.334 3.458 9.131 1.224 2.396 2.5 4.837 4.03 6.998.953 1.345 2.59 1.935 2.695 4.092-.982 1.378-1.058 3.515-1.603 5.29-2.459 7.991-1.53 17.905 2.031 23.811 1.093 1.815 3.672 5.714 7.178 4.213 3.069-1.312 2.384-5.378 3.264-8.981.199-.818.076-1.421.482-1.978v.146l2.865 5.74c2.128 3.42 5.902 6.991 9.039 9.389 1.622 1.24 2.907 3.38 4.903 4.148v-.232h-.226c-.406-.633-1.042-1.122-1.578-1.692-.845-.853-1.791-1.897-2.484-2.838-2.773-3.797-5.218-7.954-7.449-12.151-.857-1.616-1.608-3.412-2.319-5.085-.278-.648-.278-1.633-.816-1.952-1.035 1.476-1.87 3.339-2.593 5.096-.933 2.224-1.015 4.966-1.603 7.793-.236.06-.131.015-.231.149-2.169-.523-2.932-2.735-3.743-4.622-2.061-4.778-2.444-12.476-.622-17.978.471-1.424 2.595-5.904 1.74-7.252-.408-1.323-1.752-2.091-2.483-3.148-.904-1.302-1.805-3.016-2.454-4.467-1.683-3.754-2.475-7.964-4.282-11.748-.862-1.803-2.326-3.634-3.519-5.29-.795-1.169-2.13-1.936-2.673-3.401-.797-2.232-.943-5.046-1.435-7.663.004-.177-.094-.294-.23-.378z"></path>
+                                    <path fill="#00618A" d="M67.821 89.138c-2.09-.056-3.572.166-5.186.576v.29h.145c1.008 2.066 2.773 3.396 3.97 5.279.934 1.89 1.839 3.794 2.763 5.684l.087-.087c1.712-1.213 2.498-3.155 2.467-6.037-.681-.716-.78-1.616-1.358-2.414-.749-1.042-2.329-1.637-2.888-3.291z"></path>
+                                </svg>
+                            </div>
+                            <span class="tool-name">MySQL</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-logo">
+                                <svg viewBox="0 0 128 128">
+                                    <path fill="#0acf83" d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129z"></path>
+                                    <path fill="#a259ff" d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5z"></path>
+                                    <path fill="#f24e1e" d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 31.4 24 21.5z"></path>
+                                    <path fill="#ff7262" d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67V0z"></path>
+                                    <path fill="#1abcfe" d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5z"></path>
+                                </svg>
+                            </div>
+                            <span class="tool-name">Figma</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.659"><path fill="#fff" d="M116.971 2.475h278.058c62.971 0 114.494 51.522 114.494 114.494v275.722c0 62.971-51.523 114.493-114.494 114.493H116.971c-62.972 0-114.494-51.522-114.494-114.493V116.969c0-62.972 51.522-114.494 114.494-114.494z"/><path fill="#999" fill-rule="nonzero" d="M116.97-.001h278.06C459.366-.001 512 52.633 512 116.969v275.722c0 64.335-52.634 116.969-116.97 116.969H116.97C52.636 509.66 0 457.026 0 392.691V116.969C0 52.633 52.636-.001 116.97-.001zm278.06 4.953H116.97C55.364 4.952 4.953 55.363 4.953 116.969v275.722c0 61.605 50.411 112.017 112.017 112.017h278.06c61.607 0 112.017-50.411 112.017-112.017V116.969c0-61.607-50.41-112.017-112.017-112.017z"/><path fill="#fff" fill-rule="nonzero" d="M109.095 181.505c-.123 8.897 0 17.813 0 26.71a5.41 5.41 0 003.225 4.917 23898.407 23898.407 0 0084.108 41.646c-27.832 13.672-55.563 27.526-83.353 41.259a5.938 5.938 0 00-4.081 4.876v26.771c1.854 18.195 15.823 32.817 33.913 35.503 3.509.326 7.02.266 10.529.266l155.85.001a45.08 45.08 0 0011.224-.92 40.825 40.825 0 0026.137-20.015 63.699 63.699 0 004.288-11.226c15.997 8.325 32.341 16.079 48.462 24.179.385.291.857.447 1.343.447a2.266 2.266 0 002.265-2.265v-.016-27.669a4.695 4.695 0 00-3.143-4.079l-135.323-67.112c45.203-22.431 90.412-44.876 135.63-67.335a4.573 4.573 0 002.754-4.082v-27.628a2.183 2.183 0 00-3.142-1.673l-49.135 24.363a42.189 42.189 0 00-6.388-14.917 40.613 40.613 0 00-30.097-17.422l-167.133-.001c-19.615.91-35.688 15.918-37.933 35.424v-.002z"/><path fill="#fff" fill-rule="nonzero" d="M140.049 181.689a10.082 10.082 0 019.345-5.55h161.545l.106-.001c5.066 0 9.368 3.72 10.096 8.734.205 2.714.102 5.428 0 8.162l-90.597 44.891c-30.608-15.018-61.03-30.22-91.535-45.339.142-3.632-.633-7.53 1.04-10.897zM139.009 317.095a24846.007 24846.007 0 0191.351-45.319c30.322 14.773 60.521 29.954 90.802 44.89-.204 3.918.755 8.162-1.305 11.773a10.085 10.085 0 01-8.755 5.08h-.082l-161.605.002-.277.002a10.202 10.202 0 01-9.007-5.411c-1.796-3.386-.98-7.345-1.122-11.017z"/><path fill-rule="nonzero" d="M109.095 181.505c2.223-19.532 18.316-34.578 37.955-35.483l167.194-.001a40.612 40.612 0 0130.095 17.427 42.152 42.152 0 016.39 14.915l49.135-24.364a2.185 2.185 0 013.141 1.674v27.628l.001.096a4.571 4.571 0 01-2.837 4.229 177620.936 177620.936 0 00-135.63 67.336l135.324 66.948a4.695 4.695 0 013.142 4.08v27.685a2.266 2.266 0 01-3.613 1.821c-16.12-8.162-32.464-15.854-48.462-24.18a63.503 63.503 0 01-4.282 11.225 40.813 40.813 0 01-26.098 20.135 44.994 44.994 0 01-11.221.919l-155.833.003c-3.51 0-7.04 0-10.53-.266-18.089-2.705-32.049-17.363-33.869-35.565v-26.77a5.935 5.935 0 014.08-4.879c27.791-13.732 55.521-27.587 83.353-41.258a32412.61 32412.61 0 00-84.17-41.748 5.41 5.41 0 01-3.223-4.918c-.042-8.876-.185-17.792-.042-26.689zm30.975.184c-1.674 3.367-.898 7.263-1.041 10.896 30.608 15.12 60.99 30.321 91.536 45.339 30.185-14.963 60.384-29.927 90.596-44.89 0-2.714.123-5.428 0-8.162a10.203 10.203 0 00-10.096-8.734h-.106l-161.565.001a10.082 10.082 0 00-9.345 5.55h.021zm-1.041 135.406c.142 3.673-.654 7.631 1.122 11.039a10.204 10.204 0 009.284 5.405l161.667.002.081-.001c3.618 0 6.961-1.94 8.754-5.081 2.04-3.57 1.102-7.855 1.305-11.773-30.26-14.936-60.48-30.118-90.801-44.89a43915.126 43915.126 0 00-91.432 45.299h.02z"/></svg>
+                            </div>
+                            <span class="tool-name">CapCut</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-logo">
+                                <svg viewBox="0 0 128 128">
+                                    <path fill="#001E36" d="M0 0h128v128H0z"></path>
+                                    <path fill="#31A8FF" d="M29.035 95.595v-62.66c0-.58.165-.87.66-.87 1.195 0 2.32-.07 3.97-.07 1.72-.07 3.59-.07 5.6-.07 2.09-.07 4.18-.07 6.42-.07 2.17 0 4.26.07 6.27.29 1.87.21 3.66.58 5.39 1.16 1.51.51 2.87 1.23 4.1 2.1 1.23.87 2.24 1.88 3.03 3.03.8 1.16 1.38 2.46 1.74 3.9.36 1.45.58 2.97.58 4.62 0 3.84-1.02 7.03-2.97 9.65-1.95 2.61-4.77 4.55-8.33 5.75-3.63 1.23-8.04 1.52-13.04 1.52-.87 0-1.52 0-2.03-.07-.58 0-1.23-.07-2.03-.07v31.82c.07.51-.29.87-.8.87h-7.69c-.51 0-.8-.29-.73-.87v-.04zm10.33-52.69v13.33c.73.07 1.38.07 1.95.07h3.03c2.17 0 4.26-.22 6.13-.73 1.74-.44 3.18-1.23 4.26-2.32 1.02-1.02 1.52-2.54 1.52-4.48 0-1.52-.29-2.76-.94-3.84-.66-1.02-1.66-1.81-2.97-2.32-1.38-.58-3.11-.8-5.24-.8h-3.18c-.8 0-1.59 0-2.32.07-.8 0-1.52.07-2.24.07v-.05zM72.76 75.855c0-4.04.8-7.53 2.46-10.51 1.59-2.97 3.84-5.24 6.71-6.86 2.83-1.59 6.13-2.39 9.87-2.39 2.9 0 5.53.51 7.91 1.52 2.39 1.02 4.41 2.46 6.06 4.4 1.66 1.88 2.9 4.18 3.77 6.86.87 2.68 1.3 5.68 1.3 8.98 0 4.04-.8 7.6-2.46 10.58-1.59 2.97-3.84 5.31-6.71 6.93-2.83 1.66-6.13 2.46-9.87 2.46-2.9 0-5.53-.51-7.91-1.52-2.39-1.02-4.48-2.54-6.13-4.48-1.66-1.95-2.9-4.26-3.77-6.93-.87-2.61-1.3-5.53-1.23-9.04v.04zm10.11 0c0 2.54.29 4.77.94 6.64.58 1.88 1.52 3.33 2.76 4.33 1.23 1.02 2.83 1.52 4.77 1.52 1.95 0 3.55-.51 4.77-1.52 1.23-1.02 2.1-2.46 2.68-4.33.58-1.88.94-4.04.94-6.57 0-2.54-.29-4.77-.94-6.64-.58-1.88-1.52-3.33-2.76-4.33-1.23-1.02-2.83-1.52-4.77-1.52-1.95 0-3.55.51-4.77 1.52-1.23 1.02-2.1 2.46-2.68 4.33-.58 1.88-.94 4.04-.94 6.57v0z"></path>
+                                </svg>
+                            </div>
+                            <span class="tool-name">Adobe Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <h2 class="projects-header">My Projects</h2>
+            
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-img-wrap">
+                        <img src="../picture-vid/waitlist.JPG" class="project-img" alt="Waitlist Manager"/>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Ticket Waitlist</h3>
+                        <p class="project-desc">
+                            A Waitlist Manager built using C# that efficiently handles customer queues.
+                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">C#</span>
+                            <span class="tool-tag">Visual Studio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-wrap">
+                        <img src="../picture-vid/ClassManager.JPG" class="project-img" alt="ClassTask Manager"/>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Task Manager</h3>
+                        <p class="project-desc">
+                            A Task Class Manager that allows users to assign and track tasks.
+                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">C#</span>
+                            <span class="tool-tag">Visual Studio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-wrap">
+                        <img src="../picture-vid/flag.jpg" class="project-img" alt="flag"/>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Philippine Flag</h3>
+                        <p class="project-desc">
+                            A graphic design made using ADOBE Photoshop. A Philippine flag as a subject.
+                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-wrap">
+                        <img src="../picture-vid/Infographics.jpg" class="project-img" alt="Infographics"/>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Mimaropa Infographics</h3>
+                        <p class="project-desc">
+                            A MIMAROPA Infographics project that visually presents key information about the MIMAROPA region, 
+                            using clear graphics and layouts to make data easily understandable and engaging for viewers.                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Photoshop</span>
+                            <span class="tool-tag">Canva</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-wrap">
+                        <img src="../picture-vid/Magazine.jpeg" class="project-img" alt="Magazine"/>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Magazine Cover</h3>
+                        <p class="project-desc">
+                            A Magazine Cover project designed to showcase a visually striking front page, combining eye-catching graphics, typography, 
+                            and layout to effectively highlight the featured content and attract readers’ attention.                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-wrap">
+                        <img src="../picture-vid/infovid.JPG" class="project-img" alt="infovid"/>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">CHAD Informational Video</h3>
+                        <p class="project-desc">
+                            A Chad Information Video that presents key facts and insights about Chad through engaging visuals and narration, 
+                            designed to educate viewers in a clear and concise way.                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Capcut</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2 class="cta-title">Let's Work Together</h2>
+                <p class="cta-text">Have a project in mind or want to collaborate? Feel free to reach out!</p>
+                <a href="../html/contact.html" class="cta-btn">Contact Me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer-name">Edmar Delizon</h3>
+            <p class="footer-role">Information Technology Student</p>
+            <p class="footer-status">Open for Internship</p>
+        </div>
+        <p class="footer-copy">© 2026 Edmar Delizon. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
